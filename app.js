@@ -6,7 +6,7 @@ app.use('/index', (req, res, next) => {
 })
 
 app.use('/test', (req, res, next) => {
-    res.send('this is test msg');
+    res.send('this is test');
 })
 
 app.listen(3000, () => {
