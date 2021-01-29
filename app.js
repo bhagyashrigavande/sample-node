@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.use('/index', (req, res, next) => {
-    res.send('Hello from sample app');
+    res.send('Hello from sample app, this project is build by Jenkins');
 });
 
 app.use('/test', (req, res, next) => {
