@@ -13,6 +13,6 @@ app.use('/', (req, res, next) => {
     res.send('<p> Welcome to Simple node JS application </p>');
 });
 
-app.listen(3000, () => {
-    console.log('app is working on port 3000')
+app.listen(3001, () => {
+    console.log('app is working on port 3001')
 });
