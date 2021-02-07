@@ -10,7 +10,7 @@ app.use('/test', (req, res, next) => {
 });
 
 app.use('/', (req, res, next) => {
-    res.send('<p> Welcome to Simple node JS application </p>');
+    res.send('<p> Welcome ZenConix Test Server </p>');
 });
 
 app.listen(3001, () => {
